@@ -58,7 +58,7 @@ Or, a variable can take the default value if its flag is omitted:
 ./example -flag2 newValue2
 ```
 
-<\br>
+<br \>
 Example with different prefix (^ in this example):
 ```go
 package main
@@ -93,7 +93,7 @@ Or, use different order of flags, or less number of them like before.
 
 ## Errors
 Execute() function can return errors:
-- odd number of arguments: Odd number of arguments given<\br>
+- odd number of arguments: Odd number of arguments given<br \>
     For example:
     ```bash
     ./example -flag1
@@ -101,12 +101,12 @@ Execute() function can return errors:
     ```bash
     ./example -flag2 -flag1 newValue2
     ```
-- unknown argument: Unknown flag of argument given<\br>
+- unknown argument: Unknown flag of argument given<br \>
     For example if you execute one the example scripts like that:
     ```bash
     ./example -fLaG newValue2 -flag1 newValue1
     ```
-- nil variable given: Second parameter of Arg() function is nil<\br>
+- nil variable given: Second parameter of Arg() function is nil<br \>
     For example:
     ```go
     c.Arg("flag1", nil, "Default1")
