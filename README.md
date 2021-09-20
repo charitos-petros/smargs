@@ -77,7 +77,7 @@ func main() {
 	c.Arg("flag1", &var1, "Default1")
 	c.Arg("flag2", &var2, "Default2")
     
-    c.Prefix("^")
+    	c.Prefix("^")
 	err := c.Execute()
 	if err != nil {panic(err)}
 
