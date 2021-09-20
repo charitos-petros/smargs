@@ -1,6 +1,6 @@
 # smargs ~ Smart Arguments
 
-Smargs is a GO module that helps you add command line arguments in your programs.
+Smargs is a GO module that helps you add command line arguments in your programs. \
 For example, you can execute your programs like that:
 ```bash
 ./example -flag1 newValue1 -flag2 newValue2
