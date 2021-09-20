@@ -40,7 +40,7 @@ func (c *controller) Prefix(prefix string) {
 	c.prefix = prefix
 }
 
-// Function that assignes values to variables
+// Function that assigns values to variables
 func (c *controller) Execute() error{
 	l := len(os.Args)
 	if l % 2 == 0 {return errors.New("odd number of arguments")}
