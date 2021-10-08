@@ -53,7 +53,7 @@ func (c *controller) Execute() error{
 			_, ok := c.args[flag]
 			if !ok {return errors.New("unknown argument")} // Check if flag is valid
 
-			if c.args[flag].variable_ == nil {return errors.New("nil variable given")}
+			if c.args[flag].variable_ == nil {return errors.New("nil variable is given")}
 			*c.args[flag].variable_ = os.Args[i+1]
 
 			c.args[flag] = c.args[flag].get_edited() // Edited status <- True
@@ -63,7 +63,7 @@ func (c *controller) Execute() error{
 	// Default values for the other arguments
 	for _, d := range c.args {
 		if d.edited == false {
-			if d.variable_ == nil {return errors.New("nil variable given")}
+			if d.variable_ == nil {return errors.New("nil variable is given")}
 			*d.variable_ = d.default_
 		}
 	}
