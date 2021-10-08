@@ -93,7 +93,7 @@ Or, use different order of flags, or less number of them like before.
 
 ## Errors
 Execute() function can return errors:
-- odd number of arguments: Odd number of arguments given \
+- odd number of arguments: Odd number of arguments is given \
     For example:
     ```bash
     ./example -flag1
@@ -101,7 +101,7 @@ Execute() function can return errors:
     ```bash
     ./example -flag2 -flag1 newValue2
     ```
-- unknown argument: Unknown flag of argument given \
+- unknown argument: Unknown flag of argument is given \
     For example if you execute one the example scripts like that:
     ```bash
     ./example -fLaG newValue2 -flag1 newValue1
