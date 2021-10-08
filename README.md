@@ -102,7 +102,7 @@ Execute() function can return errors:
     ./example -flag2 -flag1 newValue2
     ```
 - unknown argument: Unknown flag of argument is given \
-    For example if you execute one the example scripts like that:
+    For example if you execute one of the example scripts like that:
     ```bash
     ./example -fLaG newValue2 -flag1 newValue1
     ```
