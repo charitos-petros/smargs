@@ -106,7 +106,7 @@ Execute() function can return errors:
     ```bash
     ./example -fLaG newValue2 -flag1 newValue1
     ```
-- nil variable given: Second parameter of Arg() function is nil \
+- nil variable is given: Second parameter of Arg() function is nil \
     For example:
     ```go
     c.Arg("flag1", nil, "Default1")
